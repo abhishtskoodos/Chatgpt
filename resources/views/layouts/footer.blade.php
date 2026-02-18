@@ -5,7 +5,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
                 <!-- About / Branding -->
                 <div class="footer_about mt-12 lg:mt-0">
-                    <a class="navbar-brand text-4xl font-bold text-blue-500" href="index.html">
+                    <a class="navbar-brand text-4xl font-bold text-blue-500" href="{{ route('home') }}">
                         CoreVision
                     </a>
                     <p class="mt-4 text-gray-400">I specialize in building modern, performance-driven websites and
@@ -27,10 +27,10 @@
                     <div class="footer_link mt-12 lg:mt-0">
                         <h4 class="footer_title text-xl font-semibold mb-4">Quick Links</h4>
                         <ul class="link space-y-2">
-                            <li><a href="#home" class="text-gray-400 hover:text-blue-500">Home</a></li>
-                            <li><a href="#about" class="text-gray-400 hover:text-blue-500">About</a></li>
+                            <li><a href="{{ route('home') }}" class="text-gray-400 hover:text-blue-500">Home</a></li>
+                            <li><a href="{{ route('about') }}" class="text-gray-400 hover:text-blue-500">About</a></li>
                             <li><a href="#services" class="text-gray-400 hover:text-blue-500">Services</a></li>
-                            <li><a href="#contact" class="text-gray-400 hover:text-blue-500">Contact</a></li>
+                            <li><a href="{{ route('contact') }}" class="text-gray-400 hover:text-blue-500">Contact</a></li>
                         </ul>
                     </div>
                     <div class="footer_link mt-12 lg:mt-0">
@@ -48,7 +48,7 @@
                 <!-- Contact Form -->
                 <div class="footer_form mt-12 lg:mt-0">
                     <h4 class="footer_title text-xl font-semibold mb-4">Let’s Work Together</h4>
-                    <form id="contact-form" action="assets/contact.php" method="POST">
+                    <form id="contact-form" action="{{ route('contact') }}" method="POST">
                         <div class="single_form mb-4">
                             <input type="text" name="name" placeholder="Your Name" required
                                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
