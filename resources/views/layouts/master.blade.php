@@ -10,7 +10,7 @@
         content="CoreVision is a digital marketing agency in Gurugram helping businesses grow with high-converting websites and performance marketing." />
 
     <!-- Favicon -->
-    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="{{ asset('assets/images/favicon.png') }}" type="image/x-icon" />
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap"
@@ -40,10 +40,12 @@
     </script>
 </head>
 
+<body>
+    @include('layouts.header')
 
-@include('layouts.header')
-@yield('content')
+    @yield('content')
 
-@include('layouts.footer')
+    @include('layouts.footer')
 </body>
 
+</html>
