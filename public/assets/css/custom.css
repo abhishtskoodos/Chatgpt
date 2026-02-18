@@ -1,0 +1,114 @@
+a {
+    text-decoration: none !important;
+  }
+  
+.pricing_card {
+    background-color: #fff;
+    border: 1px solid #eee;
+    transition: all 0.3s ease;
+  }
+  .pricing_card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  }
+  .pricing_card .plan_name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+  }
+  .pricing_card .price {
+    font-size: 36px;
+    color: #007bff;
+  }
+  .pricing_card .price span {
+    font-size: 14px;
+    color: #555;
+  }
+  .pricing_features li {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .featured {
+    border: 2px solid #007bff;
+  }
+  .main-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .main-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .testimonial_card {
+    background-color: #fff;
+    border: 1px solid #eee;
+    transition: all 0.3s ease;
+  }
+  .testimonial_card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  }
+  .testimonial_card h5 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .stars {
+    font-size: 18px;
+    color: #FFD700; /* gold star */
+  }
+
+  .blog_card {
+  background: #fff;
+  transition: all 0.3s ease;
+}
+.blog_card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+.blog_title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.blog_content p {
+  font-size: 14px;
+  color: #555;
+}
+.btn-link {
+  color: #007bff;
+  font-weight: 500;
+  text-decoration: none;
+}
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+.features-section {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+.feature-box {
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+.feature-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.feature-icon {
+  font-size: 40px;
+  color: #0d6efd;
+  margin-bottom: 20px;
+}
+
+.team_card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
